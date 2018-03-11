@@ -1,5 +1,6 @@
 /*
- * Kate Hohenstein
+ * Author: Kate Hohenstein
+ * Partners: Hannah Hollenback, Kathryn Reese
  * Lab 6
  * 3/10/18
  * Driver: operate game
@@ -7,7 +8,16 @@
 public class Driver {
 
 	public static void main(String[] args) {
+		/*------------------------------------------
+		 * Kathryn: Output Game Instance
+		 * Game Instance
+		 -------------------------------------------*/
+		Game myGame = new Game();
+		System.out.println(myGame);
 		
+		/*------------------------------------------
+		 * Player Instance/Test
+		 -------------------------------------------*/
 		//create instance of Player
 		String playerName = "dog";
 		String playerImage = "player.jpg";
@@ -23,7 +33,10 @@ public class Driver {
 		System.out.println(myPlayer.getPlayerPosX());
 		System.out.println(myPlayer.getPlayerPosX());
 		System.out.println(myPlayer.getScore());
-
+		
+		/*------------------------------------------
+		 * Enemy Instance/Test
+		 -------------------------------------------*/
 		//create instance of Enemy
 		String enemyImage = "enemy.jpg";
 		int enemyPositionX = 100;
@@ -39,6 +52,9 @@ public class Driver {
 		System.out.println(myEnemy.getEnemyPosX());
 		System.out.println(myEnemy.getSpeed());
 
+		/*------------------------------------------
+		 * Item Instance/Test
+		 -------------------------------------------*/
 		//create instance of Items
 		String itemImage = "item.jpg";
 		int numOfItems = 5;
