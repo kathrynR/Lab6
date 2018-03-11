@@ -1,5 +1,6 @@
 /*
- * Kate Hohenstein
+ * Author: Kate Hohenstein
+ * Partners: Hannah Hollenback, Kathryn Reese
  * Lab 6
  * 3/10/18
  * Player: set up player attributes and methods
